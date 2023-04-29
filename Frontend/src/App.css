@@ -1,0 +1,276 @@
+p {
+  font-weight: 400;
+}
+
+li {
+  font-weight: 400;
+}
+.container-Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: auto;
+  background-color:beige ;
+}
+.image-One img{
+  height: 130px;
+}
+.HeadText p{
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 30px;
+}
+.image-Two img{
+  height: 120px;
+  margin-right: 30px;
+}
+
+/* Signup */
+
+.signupheading1 {
+  color: red;
+  background-color: honeydew;
+}
+
+.signup-heading {  
+  padding-top: 40px;
+  width: 70%;
+  position: relative;
+  left: 200px;
+  border: 1px black;
+  background-color: gray;
+}
+
+.formContainer1 input{
+  width: 200px;
+}
+.formelements1 {
+  font-weight: 500;
+  float: left;
+}
+
+.instruction {
+  color: red;
+}
+
+.formelements2 {
+  float: right;
+  font-weight: 500;
+  position: relative;
+  right: 30px;
+}
+
+.btn {
+  position: relative;
+  right: 40px;
+}
+
+
+/* HOME PAGE*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* top-header */
+#top-header {
+  background-color: darkgrey;
+  padding: 10px;
+  height: 100px;
+}
+
+.govt-india {
+  width: 170px;
+  float: left;
+}
+
+
+.govt-india1 {
+  float: inline-start;
+  width: 80%;
+  position: relative;
+  left: 100px;
+}
+
+/* FOOTER */
+.page-footer {
+  height: 300px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.footer-img1 {
+  width: 8%;
+  position: relative;
+  float: left;
+  top: 50px;
+  left: 470px;
+
+}
+.footer-img2 {
+  width: 8%;
+  height: 80px;
+  position: relative;
+  float: right;
+  top: 50px;
+  right: 470px;
+
+}
+
+.login-page {
+  float: right;
+  margin-bottom: 0;
+  position: relative;
+  right: 30px;
+  bottom: 60px;
+}
+
+/* header */
+
+.logo {
+  width: 6%;
+  position: relative;
+  float: left;
+  margin: 10px;
+  left: 10px;
+  /* top: 5px; */
+}
+
+.header-content {
+  float: inline-start;
+  width: 90%;
+  position: relative;
+  left: 20px;
+  top: 50px;
+}
+
+.heading-block {
+  float: right;
+  position: relative;
+  right: 450px;
+  top: 8px;
+}
+
+.heading {
+  line-height: 0;
+  color: blue;
+  position: relative;
+  left: 90px;
+  bottom: 10px;
+}
+
+.color {
+  color: red;
+  position: relative;
+  left: 130px;
+}
+
+.logo1 {
+  width: 186px;
+  float: right;
+  position: relative;
+  left: 30%;
+  bottom: 23px;
+}
+
+/* slideshow */
+
+.img1 {
+  width: 100%;
+}
+
+/* INFORMATION */
+
+.info-main {
+  background-color: khaki;
+  height: 100px;
+ 
+}
+.info {
+  margin:10px 100px 10px 200px;
+  padding-top: 30px; 
+  padding-bottom: 0px;
+}
+.info-part {
+  position: relative;
+  left: auto;
+}
+
+/* cards */
+
+#card {
+  width: 100%;
+  background-color: cadetblue;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.card-title {
+  text-align: center;
+  /* position: relative;
+  top: 20px;
+  top: 10px; */
+  border: 1px solid;
+  padding-bottom: 5px;
+  
+}
+
+
+
+.info-logo {
+  background-color: white;
+  width: 20px;
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+
+ .card1 {
+  display: inline-block;
+  width: 20%;
+  border: 1px solid;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+} 
+
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
